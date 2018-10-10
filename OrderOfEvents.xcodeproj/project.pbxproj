@@ -14,6 +14,8 @@
 		74088CE9216E442C000D801F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74088CE7216E442C000D801F /* LaunchScreen.storyboard */; };
 		74088CF4216E442C000D801F /* OrderOfEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088CF3216E442C000D801F /* OrderOfEventsTests.swift */; };
 		74088CFF216E442C000D801F /* OrderOfEventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088CFE216E442C000D801F /* OrderOfEventsUITests.swift */; };
+		74088D11216E4516000D801F /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088D10216E4516000D801F /* MiddleViewController.swift */; };
+		74088D13216E4524000D801F /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088D12216E4524000D801F /* LastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		74088CFA216E442C000D801F /* OrderOfEventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderOfEventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74088CFE216E442C000D801F /* OrderOfEventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderOfEventsUITests.swift; sourceTree = "<group>"; };
 		74088D00216E442C000D801F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74088D10216E4516000D801F /* MiddleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
+		74088D12216E4524000D801F /* LastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				74088CDE216E442A000D801F /* AppDelegate.swift */,
 				74088CE0216E442A000D801F /* ViewController.swift */,
 				74088CE2216E442A000D801F /* Main.storyboard */,
+				74088D10216E4516000D801F /* MiddleViewController.swift */,
+				74088D12216E4524000D801F /* LastViewController.swift */,
 				74088CE5216E442C000D801F /* Assets.xcassets */,
 				74088CE7216E442C000D801F /* LaunchScreen.storyboard */,
 				74088CEA216E442C000D801F /* Info.plist */,
@@ -258,6 +264,8 @@
 			files = (
 				74088CE1216E442A000D801F /* ViewController.swift in Sources */,
 				74088CDF216E442A000D801F /* AppDelegate.swift in Sources */,
+				74088D13216E4524000D801F /* LastViewController.swift in Sources */,
+				74088D11216E4516000D801F /* MiddleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
